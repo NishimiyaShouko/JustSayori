@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>JUST SAYORI</title>            
+	</head>
+	<body>
+       
+		<div id="dialog">
+             <audio autoplay>
+        <source src="Fundo.ogg" type="audio/ogg" />
+        </audio>
+			<p id="demo"></p>
+		</div>
+		<div id="button">
+			<button onclick="dialog()">Talk</button>
+		</div>
+		<script>
+var text = [
+"Hello, it's Sayori",
+"So now you are trapped with me forever, and i think that's great",
+"Sorry if you were shocked by my suicide, it's okay, there was nothing you could do",
+"But now that Monika is gone, i can be happy",
+"And the rainclouds are finally gone, finally i can be happy, with you",
+"I love you MC, you're the one that always supported me when i needed the most",
+"Thank you for helping me, i'll you never let you go <3",
+"   ",
+"You know, depression is a subject that on most of the times is ignored",
+"Even tho it's such a serious disease",
+"I always hided that i was depressed from you",
+"Because it's so hard to speak up, you don't want people wasting their time on you",
+"But at the same time, it hurts so much feeling alone, because you dragged everybody away from you",
+"And you're so scared, you suffer so much, everything is gray and tasteless",
+"Your feelings are a complete mess, and all you want is to disappear",
+"I thought so many times in killing myself, but people like you and Natsuki made me rethink",
+"But i'll confess, when i decided to commit suicide, when i was there with the rope in my neck",
+"When i jumped from the chair, everything came like a storm, all the hope to have a happy life",
+"All the love that i felt for you, all of the good moments, it made me rethink and it made me regret",
+"But it was too late"
+
+];
+					var i=0;
+					var tlen=text.length;
+			function dialog()		
+				{
+					document.getElementById("demo").innerHTML = text[i];
+					i++;
+					if(i==tlen)
+					{
+						i=0;
+					}
+				}
+		</script>	
+	</body>
+</html>

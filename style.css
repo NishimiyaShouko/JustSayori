@@ -1,0 +1,59 @@
+body{
+	background-image: url("just sayori.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#dialog{
+	margin-top: 618px;
+	margin-left: 275px;
+	background-image: url("fundo dialogo.png");
+	height: 146px;
+	width: 816px;	
+}
+
+#dialog1{
+	margin-top: 618px;
+	margin-left: 275px;
+	height: 146px;
+	width: 816px;	
+}
+
+#button{
+width: 274px;
+height:146px;
+margin-top: -140px;
+}
+
+
+@font-face{ 
+font-family: Aller_Rg; 
+src: url('Aller_Rg.ttf'); 
+} 
+
+
+p{
+font-family: Aller_Rg;
+text-align: left;
+margin-left: 25px;
+color: white;
+text-shadow: 1px 1px 1px black;
+font-size: 22px;
+}
+
+#demo{
+font-family: Aller_Rg;
+text-align: left;
+margin-left: 25px;
+color: white;
+text-shadow: 1px 1px 1px black;
+font-size: 22px;
+margin-top: 3px;
+}
+
+button{
+font-size: 24px;
+background-color: white;
+margin-left: 212px;
+}
